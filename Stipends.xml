@@ -1,0 +1,327 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Condition_x0020_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Action_x0020_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Condition_x0020_Data" type="xs:string" minOccurs="0" />
+                <xs:element name="Action_x0020_Data" type="xs:string" minOccurs="0" />
+                <xs:element name="State" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <table>
+    <Condition_x0020_Type>ChatMessage</Condition_x0020_Type>
+    <Action_x0020_Type>None</Action_x0020_Type>
+    <Condition_x0020_Data>          %%% Stipends V. 1.1 %%%</Condition_x0020_Data>
+    <Action_x0020_Data>0</Action_x0020_Data>
+    <State>!!!!!!!!!!!!!!!!!!!!</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Not</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>LandCellE{C6A9001C}</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+28
+uTank2 NAV 1.2
+4
+28
+4
+-100.892172749837
+-15.7151809374491
+2.08333134651184E-05
+0
+/ah
+3
+-100.892172749837
+-15.7151809374491
+2.08333134651184E-05
+0
+18000
+0
+55.8157105763753
+33.6079718271891
+0.21668750445048
+0
+0
+55.8430930137634
+33.5900627772013
+0.21668750445048
+0
+0
+55.8777281761169
+33.5783262888591
+0.212066141764323
+0
+0
+55.91013768514
+33.574203936259
+0.206664562225342
+0
+0
+55.9340922673543
+33.5696124394735
+0.202672131856283
+0
+0
+55.9773759841919
+33.5595555623372
+0.193176825841268
+0
+0
+56.0320473353068
+33.5469366073608
+0.180019553502401
+0
+0
+56.0634975751241
+33.5498118718465
+0.175052181879679
+0
+0
+56.1187202453613
+33.5514953613281
+0.175020837783813
+0
+0
+56.1643026987712
+33.5489114443461
+0.175020837783813
+0
+0
+56.2111707051595
+33.5462473869324
+0.175020837783813
+0
+0
+56.2565362294515
+33.5436688105265
+0.175020837783813
+0
+0
+56.2944269816081
+33.5451039632161
+0.175020837783813
+0
+0
+56.330495262146
+33.5441818873088
+0.175020837783813
+0
+0
+56.3762982686361
+33.5449480374654
+0.175020837783813
+0
+0
+56.4347259521484
+33.5459254582723
+0.175020837783813
+0
+0
+56.4967258850733
+33.5469623883565
+0.175020837783813
+0
+0
+56.5718160947164
+33.5482183456421
+0.175020837783813
+0
+0
+56.6354259490967
+33.5492824236552
+0.175020837783813
+0
+0
+56.6894282341003
+33.5501856486003
+0.175020837783813
+0
+0
+56.7299868901571
+33.5552087465922
+0.175020837783813
+0
+0
+56.7471744219462
+33.5666020711263
+0.175020837783813
+0
+0
+56.7570021311442
+33.5826523462931
+0.175020837783813
+0
+0
+56.7684256871541
+33.6013087908427
+0.175020837783813
+0
+0
+56.7747263908386
+33.6146547317505
+0.175020837783813
+0
+0
+56.7795720736186
+33.6315133412679
+0.175020837783813
+0
+}ChatCommand{/vt opt set enablenav true}</Action_x0020_Data>
+    <State>* Navigate To Arwic *</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>LandCellE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>C6A9001C</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{talktomonroe.nav
+4
+uTank2 NAV 1.2
+4
+4
+0
+56.7818246841431
+33.6300081888835
+0.175020837783813
+0
+0
+56.7819528897603
+33.6381677309672
+0.175020837783813
+0
+0
+56.7825608253479
+33.6416119893392
+0.175020837783813
+0
+6
+56.7721632639567
+33.6344208717346
+0.175020837783813
+0
+Monroe
+37
+True
+56.7816291809082
+33.6455291748047
+0.175020843744278
+}ChatCommand{/vt opt set enablenav true}SetState{Donetalking}</Action_x0020_Data>
+    <State>* Navigate To Arwic *</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>ChatCommand{/vt opt set autostack true}SetState{* Navigate To Arwic *}ChatCommand{/vt opt set enablecombat false}ChatCommand{/vt opt set enablebuffing false}ChatCommand{/vt opt set enablenav true}</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 1}Expression{getcharstringprop[1]==Immortalbob}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 1</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 2}Expression{getcharstringprop[1]==immortalbob 2}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 2</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 3}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 3</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 4}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 4</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 5}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 5</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 6}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 6</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 7}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 7</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 8}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 8</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 9}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 9</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>ChatCommand</Action_x0020_Type>
+    <Condition_x0020_Data>Expression{getcharstringprop[1]==Char Slot 10}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}Expression{getcharstringprop[1]==}</Condition_x0020_Data>
+    <Action_x0020_Data>/mf lncbi set 10</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ChatMessage</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Monroe tells you, "Ah, but I have already given you a stipend this wee</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{donetalking.nav
+2
+uTank2 NAV 1.2
+4
+2
+0
+56.7764265060425
+33.6358571052551
+0.175020837783813
+0
+0
+56.7687600453695
+33.6276370048523
+0.175020837783813
+0
+}ChatCommand{/mf lmq clear}ChatCommand{/mf lmq add /vt start}ChatCommand{/mf lmq add /vt meta load Stipends}ChatCommand{/mf lmq add /vt opt set enablemeta true}SetState{Logoff}</Action_x0020_Data>
+    <State>Donetalking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>SecondsInStateGE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>5</Condition_x0020_Data>
+    <Action_x0020_Data>ChatCommand{/mt logout}</Action_x0020_Data>
+    <State>Logoff</State>
+  </table>
+</NewDataSet>
